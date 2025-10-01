@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const API_URL = 'http://localhost:5000/analyze';
+const API_URL = 'https://task-analyzer-api.onrender.com/analyze';
 
 export default function App() {
   const [text, setText] = useState('Tôi muốn giao cho ông A làm việc với Hóc Môn và báo cáo lại cho tôi vào ngày 05/07');
